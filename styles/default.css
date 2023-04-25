@@ -1,0 +1,293 @@
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 12pt;
+    color: rgba(0,0,0,.6);
+}
+
+
+h1, h2, h3
+{
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+
+p, ol, ul
+{
+    margin-top: 0;
+}
+
+ol, ul
+{
+    padding: 0;
+    list-style: none;
+}
+
+p
+{
+    line-height: 180%;
+}
+
+strong
+{
+}
+
+a
+{
+    color: #16A085;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+
+.container
+{
+    margin: 0px auto;
+    width: 1200px;
+}
+
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+.image
+{
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.image img
+{
+    display: block;
+    width: 100%;
+}
+
+.image-full
+{
+    display: block;
+    width: 100%;
+    margin: 0 0 3em 0;
+}
+
+.image-left
+{
+    float: left;
+    margin: 0 2em 2em 0;
+}
+
+.image-centered
+{
+    display: block;
+    margin: 0 0 2em 0;
+}
+
+.image-centered img
+{
+    margin: 0 auto;
+    width: auto;
+}
+
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+.button
+{
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0.8em 2em;
+    background: #16A085;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #FFF;
+}
+
+.button:before
+{
+    display: inline-block;
+    background: #8DCB89;
+    margin-right: 1em;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #272925;
+}
+
+.button-small
+{
+}
+    
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+.title
+{
+    margin-bottom: 3em;
+}
+
+.title h2
+{
+    font-size: 2.8em;
+}
+
+.title .byline
+{
+    font-size: 1.1em;
+    color: #6F6F6F;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header-wrapper
+{
+    overflow: hidden;
+    background: url(images/bg01.jpg) repeat-x center top;
+}
+
+#header
+{
+    
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+
+#icon {
+    
+    height: 100px;
+    width: 200px;
+    display: block;
+    /* Other styles here */
+}
+#logo h1
+{
+    display: inline-block;
+    margin-bottom: 0.20em;
+    padding: 0.20em 0.9em;
+    font-size: 3.5em;
+}
+
+#logo a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+#logo span
+{
+    padding-right: 0.5em;
+    text-transform: uppercase;
+    font-size: 0.90em;
+    color: rgba(255,255,255,1);
+}
+
+#logo span a
+{
+    color: rgba(255,255,255,0.8);
+}
+
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu
+{
+}
+
+#menu ul
+{
+    display: inline-block;
+    padding: 0em 2em;
+    background: #0164f9;
+    text-align: center;
+}
+
+#menu li
+{
+    display: inline-block;
+}
+#menu li a, #menu li span
+{
+    display: inline-block;
+    padding: 1.3em 1.5em;
+    text-decoration: none;
+    font-size: 0.90em;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: 0;
+    color: #000;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+}
+
+#menu .current_page_item a
+{
+    color: rgb(255, 255, 255);
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+#footer
+{
+    text-align: center;
+}
+
+
+#footer .title span
+{
+    color: rgba(255,255,255,0.4);
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+    overflow: hidden;
+    padding: 5em 0em;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    text-align: center;
+}
+
+#copyright p
+{
+    letter-spacing: 1px;
+    font-size: 0.90em;
+    color: rgba(255,255,255,0.6);
+}
+
+#copyright a
+{
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+}
